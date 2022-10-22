@@ -13,7 +13,7 @@ build: | ; CPPFLAGS='-DSYSTEM=\"$(SYSTEM)\"' $(MESON) $@
 
 format: NIXPKGS_FMT ?= nixpkgs-fmt
 format: NINJA ?= ninja
-format: build; $(NINJA) -C build clang-format; $(NIXPKGS_FMT) *.nix
+format: build; $(NINJA) -C build clang-format; $(NIXPKGS_FMT) *.nix nix/*.nix
 
 clean: ; rm -rf build || true
 
