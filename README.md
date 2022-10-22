@@ -22,3 +22,6 @@ Todo:
   + Would be a good fit for nixos-containers instead
 - [ ] Proper settings transfer to daemon
   + Settings should propagate from client to daemon, like the current hook does.
+- [ ] Improved scheduling, machine availability management
+  + One goal of this project is to improve scheduling and machine availability
+  + But right now, it just does the simplest thing and copies the current build-hook
