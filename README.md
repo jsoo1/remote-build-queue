@@ -15,6 +15,8 @@ Todo:
   + My initial thought was to broadcast over UDP
 - [ ] Copying build products back to the client
   + Still thinking about how this might work
+- [ ] Content-addressable builds
+  + Should be a matter of translating some of the finnickier bits of the current hook.
 - [ ] Simplify postgres nixos configuration
   + Currently the configuration is too complex, assuming a multi-tenent database on the host
   + Would be a good fit for nixos-containers instead
