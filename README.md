@@ -18,3 +18,5 @@ Todo:
 - [ ] Simplify postgres nixos configuration
   + Currently the configuration is too complex, assuming a multi-tenent database on the host
   + Would be a good fit for nixos-containers instead
+- [ ] Proper settings transfer to daemon
+  + Settings should propagate from client to daemon, like the current hook does.
