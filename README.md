@@ -3,7 +3,7 @@
 This is in a draft state - *DO NOT USE IT*. This is in the open as a reference and source for ideas, not for production (or even personal) use.
 
 `remote-build-queue` currently implements:
-- `enqeueu` - `build-hook` to be exec'd by nix-build as a drop-in replacement for the [current build-hook](https://github.com/NixOS/nix/blob/master/src/build-remote/build-remote.cc)
+- `enqueue` - `build-hook` to be exec'd by nix-build as a drop-in replacement for the [current build-hook](https://github.com/NixOS/nix/blob/master/src/build-remote/build-remote.cc)
 - `remote-build-queue` daemon - collects events and builds jobs
 - A postgres database acting as an append-only message-queue
 - A nixos configuration for `remote-build-queue` and the associated postgres database
